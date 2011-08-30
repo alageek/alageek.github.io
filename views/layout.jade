@@ -7,6 +7,9 @@ html
     //if lt IE 8
       link(rel="stylesheet", href="/stylesheets/blueprint/ie.css", type="text/css", media="screen, projection")
     link(rel="stylesheet", href="/stylesheets/style.css")
+    script(src="/javascripts/outsource/jquery.js")
+    script(src="/javascripts/outsource/pure.js")
+    script(src="/javascripts/application.js")
 
   body
     #header
@@ -19,3 +22,7 @@ html
       .container.prepend-top
         .span-24.last
           != body
+
+    #footer
+      .container.prepend-top
+        p © Copyright 2011 by the alaGeek Team.

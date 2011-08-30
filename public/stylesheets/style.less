@@ -1,12 +1,21 @@
 @header-height: 60px;
 
+.no-space() {
+    margin: 0;
+    padding: 0;
+}
+
+.reset-ul() {
+    list-style-type: none;
+    .no-space;
+}
+
 body {
     background-color: #eee;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-    color: #00B7FF;
     text-decoration: none;
 }
 
@@ -19,5 +28,44 @@ a {
         color: #fff;
         font-size: 36px;
         line-height: @header-height;
+    }
+}
+
+#sidebar {
+    ul {
+        &.team {
+            border-top: 1px solid #ddd;
+            .reset-ul;
+
+            li {
+                border-bottom: 1px solid #ddd;
+
+                a {
+                    padding: 5px 0;
+                    display: block;
+                }
+            }
+
+            img {
+                margin-right: 10px;
+                vertical-align: middle;
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+#footer {
+    text-align: right;
+
+    .container {
+        border-top: 1px solid #ccc;
+    }
+
+    p {
+        font-size: 11px;
+        color: #555;
+        line-height: 40px;
     }
 }
