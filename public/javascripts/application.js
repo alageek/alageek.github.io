@@ -2,36 +2,36 @@ $(function() {
     var team = $('ul.team');
     var projects = $('ul.projects');
 
-    $.getJSON(
-        'https://api.github.com/orgs/alageek/members',
-        {}, function(response) {
-            var data = {'members': response};
+    $.ajax({
+        url: 'https://api.github.com/orgs/alageek/members',
+        dataType: 'jsonp',
+        success: function(response) {
             var directive = {
                 'li': {
-                    'member<-members': {
+                    'member<-data': {
                         'a@href+': 'member.login',
                         'img@src': 'member.avatar_url',
                         'span.login': 'member.login'
                     }
                 }
             };
-            team.render(data, directive);
+            team.render(response, directive);
         }
-    );
+    });
 
-    $.getJSON(
-        'https://api.github.com/orgs/alageek/repos',
-        {}, function(response) {
-            var data = {'projects': response};
+    $.ajax({
+        url: 'https://api.github.com/orgs/alageek/repos',
+        dataType: 'jsonp',
+        success: function(response) {
             var directive = {
                 'li': {
-                    'project<-projects': {
+                    'project<-data': {
                         'a@href+': 'project.name',
                         'span.name': 'project.name'
                     }
                 }
             };
-            projects.render(data, directive);
+            projects.render(response, directive);
         }
-    );
+    });
 });
