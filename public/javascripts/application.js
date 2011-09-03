@@ -23,11 +23,13 @@ $(function() {
         url: 'https://api.github.com/orgs/alageek/repos',
         dataType: 'jsonp',
         success: function(response) {
+            console.log(response);
             var directive = {
                 'li': {
                     'project<-data': {
                         'a@href+': 'project.name',
-                        'span.name': 'project.name'
+                        'span.name': 'project.name',
+                        'span.description': 'project.description'
                     }
                 }
             };
