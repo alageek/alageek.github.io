@@ -142,12 +142,46 @@ ul.projects {
                 background-color: #f9f9f9;
             }
         }
+
+        .meta {
+            float: right;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            line-height: 20px;
+
+            span {
+                padding: 2px 5px;
+                font-size: 11px;
+                color: #6c7371;
+                display: inline;
+
+                &.language {
+
+                }
+
+                &.watchers, &.forks {
+                    margin-left: 5px;
+                    padding-left: 17px;
+                    background-position: 0 -3px;
+                    background-repeat: no-repeat;
+                }
+
+                &.watchers {
+                    background-image: url('/images/watchers.png');
+                }
+
+                &.forks {
+                    background-image: url('/images/forks.png');
+                }
+            }
+        }
     }
 
     span {
         display: block;
 
         &.name {
+            margin-bottom: 5px;
             font-size: 20px;
             font-weight: bold;
         }

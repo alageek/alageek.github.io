@@ -37,7 +37,10 @@ $(function() {
                     'project<-data': {
                         'a@href+': 'project.name',
                         'span.name': 'project.name',
-                        'span.description': 'project.description'
+                        'span.description': 'project.description',
+                        'span.language': 'project.language',
+                        'span.watchers': 'project.watchers',
+                        'span.forks': 'project.forks'
                     }
                 }
             };
