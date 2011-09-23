@@ -16,6 +16,12 @@
     -webkit-border-radius: 6px;
 }
 
+.box-shadow(@value: #ccc) {
+    box-shadow: 0 0 5px @value;
+    -moz-box-shadow: 0 0 5px @value;
+    -webkit-box-shadow: 0 0 5px @value;
+}
+
 body {
     background-color: #eee;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -38,32 +44,59 @@ a {
 }
 
 #sidebar {
-    ul {
-        &.team {
-            border-top: 1px solid #eee;
-            .reset-ul;
-
-            li {
-                border-bottom: 1px solid #eee;
-
-                a {
-                    padding: 5px 0;
-                    display: block;
-                }
-            }
-
-            img {
-                margin-right: 10px;
-                vertical-align: middle;
-                width: 32px;
-                height: 32px;
-            }
-        }
+    h2 {
+        font-size: 24px;
+        color: #333;
     }
 
     .box {
+        padding: 10px;
+        border: 1px solid #fff;
         background-color: #ddd;
-        .border-radius;
+        .box-shadow;
+
+        &.team {
+            padding: 0;
+
+            h2 {
+                margin: 0;
+                padding: 10px;
+            }
+
+            span {
+                display: block;
+
+                &.login {
+                    font-size: 11px;
+                }
+            }
+
+            ul {
+                .reset-ul;
+
+                li {
+                    border-top: 1px solid #eee;
+                    min-height: 42px;
+
+                    a {
+                        padding: 5px 10px;
+                        display: block;
+                        color: #444;
+
+                        &:hover {
+                            background-color: #e3e3e3;
+                        }
+                    }
+                }
+
+                img {
+                    margin-right: 10px;
+                    width: 32px;
+                    height: 32px;
+                    float: left;
+                }
+            }
+        }
     }
 }
 
