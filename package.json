@@ -4,7 +4,7 @@
     "private": true,
     "subdomain": "alageek",
     "scripts": {
-        "start": "server.js"
+        "start": "app.js"
     },
     "dependencies": {
         "express": "2.4.6",
