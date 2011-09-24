@@ -1,6 +1,6 @@
 /* Color Theme: http://kuler.adobe.com/#themeID/509848 */
 
-@header-height: 60px;
+@header-height: 50px;
 
 .no-space() {
     margin: 0;
@@ -33,13 +33,21 @@ a {
     text-decoration: none;
 }
 
+.shadow-header {
+    position: absolute;
+    top: @header-height;
+    background: transparent url('/images/shadow-header.png') top left repeat-x;
+    height: 5px;
+    width: 100%;
+}
+
 #header {
-    background-color: #222;
+    background: #333;
     height: @header-height;
 
     h1 {
         margin: 0;
-        color: #fff;
+        color: #f2f2f2;
         font-size: 36px;
         line-height: @header-height;
     }
