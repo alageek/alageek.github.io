@@ -2,7 +2,6 @@ languageCode = "en-us"
 title = "alaGeek Software Development and Consultancy Services"
 baseURL = "https://alageek.com/"
 theme = 'hugo-elate-theme'
-publishDir = 'docs'
 
 [params]
   # custom_css = ["css/custom1.css", "css/custom2.css"]
