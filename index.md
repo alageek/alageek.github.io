@@ -21,15 +21,15 @@ Grow your ideas.
 <div class="grid-x grid-margin-x">
   <div class="small-12 medium-4 cell">
     <h2>Coachfrog.ch</h2>
-    <img src="/assets/image/coachfrog.jpg">
+    <img src="/assets/images/coachfrog.jpg">
   </div>
   <div class="small-12 medium-4 cell">
     <h2>Sherpany.ch</h2>
-    <img src="/assets/image/sherpany.jpg">
+    <img src="/assets/images/sherpany.jpg">
   </div>
   <div class="small-12 medium-4 cell">
     <h2>Next Project</h2>
-    <img src="/assets/image/next_project.jpg">
+    <img src="/assets/images/next_project.jpg">
   </div>
 </div>
 
@@ -40,17 +40,17 @@ We want to be part of your positive change story.
   <div class="small-12 medium-4 cell">
     <h2>Gökmen Görgen</h2>
     <h3>Software Developer</h3>
-    <img src="/assets/image/gokmen_gorgen.jpg">
+    <img src="/assets/images/gokmen_gorgen.jpg">
   </div>
   <div class="small-12 medium-4 cell">
     <h2>Yusuf Karaçin</h2>
     <h3>Backend Developer</h3>
-    <img src="/assets/image/yusuf_karacin.jpg">
+    <img src="/assets/images/yusuf_karacin.jpg">
   </div>
   <div class="small-12 medium-4 cell">
     <h2>Mirat Can Bayrak</h2>
     <h3>Backend Developer</h3>
-    <img src="/assets/image/mirat_can_bayrak.jpg">
+    <img src="/assets/images/mirat_can_bayrak.jpg">
   </div>
 </div>
 
