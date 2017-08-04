@@ -1,14 +1,19 @@
-# We develop your software
 You have an idea, a vision and perhaps a plan. We have the expertise to execute and turn it into reality. Together we will succeed.
 
-## Plan
-Project management is a very core strength of alaGeek. We always try to find the fine balance between minimizing cost and minimizing risks.
-
-## Develop
-We have tuned our technology stack over the years based on experience. Our stack consists of Python, Django, Linux, Gunicorn, Celery, Git, and more.
-
-## Launch
-We are confident that we provide a very good mix of technological expertise, design flair, project management style, delivery focus, and integrity.
+<div class="grix-x grid-margin-x">
+  <div class="small-12 medium-4 cell">
+    <h2>Plan</h2>
+    <p>Project management is a very core strength of alaGeek. We always try to find the fine balance between minimizing cost and minimizing risks.</p>
+  </div>
+  <div class="small-12 medium-4 cell">
+    <h2>Develop</h2>
+    <p>We have tuned our technology stack over the years based on experience. Our stack consists of Python, Django, Linux, Gunicorn, Celery, Git, and more.</p>
+  </div>
+  <div class="small-12 medium-4 cell">
+    <h2>Launch</h2>
+    <p>We are confident that we provide a very good mix of technological expertise, design flair, project management style, delivery focus, and integrity.</p>
+  </div>
+</div>
 
 # Work
 Grow your ideas.
