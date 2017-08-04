@@ -18,7 +18,7 @@ You have an idea, a vision and perhaps a plan. We have the expertise to execute 
 # Work
 Grow your ideas.
 
-<div class="grid-x grid-margin-x">
+<div class="grid-x grid-margin-x margin-bottom-3">
   <div class="small-12 medium-4 cell">
     <h2>Coachfrog.ch</h2>
     <img src="/assets/images/coachfrog.jpg">
@@ -36,20 +36,26 @@ Grow your ideas.
 # About
 We want to be part of your positive change story.
 
-<div class="grid-x grid-margin-x">
+<div class="grid-x grid-margin-x margin-bottom-3">
   <div class="small-12 medium-4 cell">
-    <h2>Gökmen Görgen</h2>
-    <h3>Software Developer</h3>
+    <p>
+      Gökmen Görgen<br />
+      Software Developer
+    </p>
     <img src="/assets/images/gokmen_gorgen.jpg">
   </div>
   <div class="small-12 medium-4 cell">
-    <h2>Yusuf Karaçin</h2>
-    <h3>Backend Developer</h3>
+    <p>
+      Yusuf Karaçin<br />
+      Backend Developer
+    </p>
     <img src="/assets/images/yusuf_karacin.jpg">
   </div>
   <div class="small-12 medium-4 cell">
-    <h2>Mirat Can Bayrak</h2>
-    <h3>Backend Developer</h3>
+    <p>
+      Mirat Can Bayrak<br />
+      Backend Developer
+    </p>
     <img src="/assets/images/mirat_can_bayrak.jpg">
   </div>
 </div>
