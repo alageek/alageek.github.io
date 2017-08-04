@@ -1,25 +1,58 @@
 You have an idea, a vision and perhaps a plan. We have the expertise to execute and turn it into reality. Together we will succeed.
 
-<div class="grix-x grid-margin-x">
+<div class="grid-x grid-margin-x">
   <div class="small-12 medium-4 cell">
     <h2>Plan</h2>
-    <p>Project management is a very core strength of alaGeek. We always try to find the fine balance between minimizing cost and minimizing risks.</p>
+    <p class="text-justify">Project management is a very core strength of alaGeek. We always try to find the fine balance between minimizing cost and minimizing risks.</p>
   </div>
   <div class="small-12 medium-4 cell">
     <h2>Develop</h2>
-    <p>We have tuned our technology stack over the years based on experience. Our stack consists of Python, Django, Linux, Gunicorn, Celery, Git, and more.</p>
+    <p class="text-justify">We have tuned our technology stack over the years based on experience. Our stack consists of Python, Django, Linux, Gunicorn, Celery, Git, and more.</p>
   </div>
   <div class="small-12 medium-4 cell">
     <h2>Launch</h2>
-    <p>We are confident that we provide a very good mix of technological expertise, design flair, project management style, delivery focus, and integrity.</p>
+    <p class="text-justify">We are confident that we provide a very good mix of technological expertise, design flair, project management style, delivery focus, and integrity.</p>
   </div>
 </div>
 
 # Work
 Grow your ideas.
 
+<div class="grid-x grid-margin-x">
+  <div class="small-12 medium-4 cell">
+    <h2>Coachfrog.ch</h2>
+    <img src="/assets/image/coachfrog.jpg">
+  </div>
+  <div class="small-12 medium-4 cell">
+    <h2>Sherpany.ch</h2>
+    <img src="/assets/image/sherpany.jpg">
+  </div>
+  <div class="small-12 medium-4 cell">
+    <h2>Next Project</h2>
+    <img src="/assets/image/next_project.jpg">
+  </div>
+</div>
+
 # About
 We want to be part of your positive change story.
+
+<div class="grid-x grid-margin-x">
+  <div class="small-12 medium-4 cell">
+    <h2>Gökmen Görgen</h2>
+    <h3>Software Developer</h3>
+    <img src="/assets/image/gokmen_gorgen.jpg">
+  </div>
+  <div class="small-12 medium-4 cell">
+    <h2>Yusuf Karaçin</h2>
+    <h3>Backend Developer</h3>
+    <img src="/assets/image/yusuf_karacin.jpg">
+  </div>
+  <div class="small-12 medium-4 cell">
+    <h2>Mirat Can Bayrak</h2>
+    <h3>Backend Developer</h3>
+    <img src="/assets/image/mirat_can_bayrak.jpg">
+  </div>
+</div>
 
 # Services
 We develop web and mobile solutions.
@@ -39,8 +72,6 @@ Operations and after go-live are important parts of the solution lifecycle. Our 
 # Get in Touch
 We help our clients turn their ideas into web or mobile products.
 
-Merkez mh. Hasat sk. No: 52 / 1, Şişli / İstanbul, Turkey
-
-Şişli / 0470569252
-
-info@alageek.com
+- Merkez mh. Hasat sk. No: 52 / 1, Şişli / İstanbul, Turkey
+- Şişli / 0470569252
+- [info@ala...](http://www.google.com/recaptcha/mailhide/d?k=01s7NM-_ZHP-8TDXKJmIkm3w==&c=hqRsgakTGh0KYNGwBuPLt3lXx7K5PFjjhXXRlRE1458=)
