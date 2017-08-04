@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 title: alaGeek
-tagline: python, django, java, android, nodejs, javascript, erlang, türkiye, istanbul
-author:
-  name: Gökmen Görgen
-  url: https://gokmengorgen.net
+description: We develop your software
+show_downloads: false
+google_analytics: UA-54304543-1
+keywords: python, django, java, android, nodejs, javascript, erlang, türkiye, istanbul
+github:
+  is_project_page: false
