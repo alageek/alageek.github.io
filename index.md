@@ -2,33 +2,33 @@ You have an idea, a vision and perhaps a plan. We have the expertise to execute 
 
 <div class="grid-x grid-margin-x">
   <div class="small-12 medium-4 cell">
-    <h2>Plan</h2>
+    <h3>Plan</h3>
     <p class="text-justify">Project management is a very core strength of alaGeek. We always try to find the fine balance between minimizing cost and minimizing risks.</p>
   </div>
   <div class="small-12 medium-4 cell">
-    <h2>Develop</h2>
+    <h3>Develop</h3>
     <p class="text-justify">We have tuned our technology stack over the years based on experience. Our stack consists of Python, Django, Linux, Gunicorn, Celery, Git, and more.</p>
   </div>
   <div class="small-12 medium-4 cell">
-    <h2>Launch</h2>
+    <h3>Launch</h3>
     <p class="text-justify">We are confident that we provide a very good mix of technological expertise, design flair, project management style, delivery focus, and integrity.</p>
   </div>
 </div>
 
-# Work
+## Work
 Grow your ideas.
 
 <div class="grid-x grid-margin-x margin-bottom-3">
   <div class="small-12 medium-4 cell">
-    <h2>Coachfrog.ch</h2>
+    <h3>Coachfrog.ch</h3>
     <img src="/assets/images/coachfrog.jpg">
   </div>
   <div class="small-12 medium-4 cell">
-    <h2>Sherpany.ch</h2>
+    <h3>Sherpany.ch</h3>
     <img src="/assets/images/sherpany.jpg">
   </div>
   <div class="small-12 medium-4 cell">
-    <h2>Next Project</h2>
+    <h3>Next Project</h3>
     <img src="/assets/images/next_project.jpg">
   </div>
 </div>
