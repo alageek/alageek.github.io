@@ -1,24 +1,6 @@
 @import "rouge-github";
 @import "variables";
 
-@mixin large {
-  @media screen and (min-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin medium {
-  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin small {
-  @media screen and (max-width: #{$medium-breakpoint}) {
-    @content;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -62,26 +44,8 @@ a {
     margin-left: 1rem;
   }
 
-  @include large {
-    padding: 0.75rem 1rem;
-  }
-
-  @include medium {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
-  }
-
-  @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-
-    + .btn {
-      margin-top: 1rem;
-      margin-left: 0;
-    }
-  }
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
 }
 
 .page-header {
@@ -95,36 +59,14 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
-
-  @include large {
-    font-size: 3.25rem;
-  }
-
-  @include medium {
-    font-size: 2.25rem;
-  }
-
-  @include small {
-    font-size: 1.75rem;
-  }
+  font-size: 2.25rem;
 }
 
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7;
-
-  @include large {
-    font-size: 1.25rem;
-  }
-
-  @include medium {
-    font-size: 1.15rem;
-  }
-
-  @include small {
-    font-size: 1rem;
-  }
+  font-size: 1.15rem;
 }
 
 .main-content {
@@ -134,22 +76,8 @@ a {
     margin-top: 0;
   }
 
-  @include large {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-
-  @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-    font-size: 1rem;
-  }
+  padding: 2rem 4rem;
+  font-size: 1.1rem;
 
   img {
     max-width: 100%;
@@ -305,18 +233,7 @@ a {
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px $hr-border-color;
-
-  @include large {
-    font-size: 1rem;
-  }
-
-  @include medium {
-    font-size: 1rem;
-  }
-
-  @include small {
-    font-size: 0.9rem;
-  }
+  font-size: 1rem;
 }
 
 .site-footer-owner {

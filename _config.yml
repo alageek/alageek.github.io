@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: alageek
 title: alaGeek
 description: We develop your software
 show_downloads: false
@@ -6,3 +6,5 @@ google_analytics: UA-54304543-1
 keywords: python, django, java, android, nodejs, javascript, erlang, türkiye, istanbul
 github:
   is_project_page: false
+site:
+  title: alaGeek
