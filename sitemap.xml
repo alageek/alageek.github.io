@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://alageek.com/home/</loc>
+    <loc>https://alageek.com/</loc>
   </url>
   
   <url>
@@ -17,11 +17,6 @@
   
   <url>
     <loc>https://alageek.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://alageek.com/</loc>
     <priority>0</priority>
   </url>
   
