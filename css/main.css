@@ -35,6 +35,7 @@ a:hover {
 }
 
 .header .logo {
+    margin-left: 1.5rem;
     max-height: 120px;
 }
 
@@ -49,6 +50,10 @@ a:hover {
     color: #666666;
     font-size: 14px;
     padding: 3px 5px 0 5px;
+}
+
+.header ul.nav li a:hover {
+    text-decoration: underline;
 }
 
 .header ul.nav li:first-child a {
@@ -115,19 +120,23 @@ a:hover {
 }
 
 .content .meta,
-.content .markdown h1,
-.content .markdown h2,
-.content .markdown h3,
-.content .markdown h4,
-.content .markdown h5,
-.content .markdown h6,
-.content .markdown p,
-.content .markdown ul,
-.content .markdown ol,
-.content .markdown dl,
-.content .markdown blockquote {
-    margin-left: 1.5rem;
+.content .markdown > h1,
+.content .markdown > h2,
+.content .markdown > h3,
+.content .markdown > h4,
+.content .markdown > h5,
+.content .markdown > h6,
+.content .markdown > p,
+.content .markdown > ul,
+.content .markdown > ol,
+.content .markdown > dl,
+.content .markdown > blockquote {
+    margin-left: 1.5rem;  /* equal to mx-md-4 in bootstrap */
     margin-right: 1.5rem;
+}
+
+.content .markdown p + p {
+  text-indent: 1.5rem;
 }
 
 .content .markdown code,
@@ -214,9 +223,8 @@ a:hover {
 /* Partial: Footer */
 .footer a {
     font-size: 14px;
-    margin-left: 6px;
-    margin-right: 6px;
     opacity: 0.6;
+    display: inline-block;
     transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
     -webkit-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
     -moz-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -254,17 +262,17 @@ a:hover {
     }
 
     .content .meta,
-    .content .markdown h1,
-    .content .markdown h2,
-    .content .markdown h3,
-    .content .markdown h4,
-    .content .markdown h5,
-    .content .markdown h6,
-    .content .markdown p,
-    .content .markdown ul,
-    .content .markdown ol,
-    .content .markdown dl,
-    .content .markdown blockquote {
+    .content .markdown > h1,
+    .content .markdown > h2,
+    .content .markdown > h3,
+    .content .markdown > h4,
+    .content .markdown > h5,
+    .content .markdown > h6,
+    .content .markdown > p,
+    .content .markdown > ul,
+    .content .markdown > ol,
+    .content .markdown > dl,
+    .content .markdown > blockquote {
         margin-left: 0;
         margin-right: 0;
     }
