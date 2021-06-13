@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SOFTWARE DEVELOPMENT TEAM on alaGeek</title>
+    <title>alaGeek</title>
     <link>https://alageek.com/</link>
-    <description>Recent content in SOFTWARE DEVELOPMENT TEAM on alaGeek</description>
+    <description>Recent content on alaGeek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://alageek.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
